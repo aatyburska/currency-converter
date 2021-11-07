@@ -14,7 +14,7 @@
                     
             case "GBP":
                 return = amount / rateGBP;
-    }
+        }
 
     const updateResultText = (result, currency) => {
         const resultElement = document.querySelector (".js-result");

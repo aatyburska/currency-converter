@@ -7,15 +7,15 @@
 
         switch (currency) {
             case "EUR":
-                return = amount / rateEUR;
+                return amount / rateEUR;
         
             case "USD":
-                return = amount / rateUSD;
+                return amount / rateUSD;
                     
             case "GBP":
-                return = amount / rateGBP;
+                return amount / rateGBP;
         }
-
+    }
     const updateResultText = (result, currency) => {
         const resultElement = document.querySelector (".js-result");
         resultElement.innerText = `Masz ${result.toFixed(2)} ${currency}`;
